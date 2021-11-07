@@ -88,6 +88,7 @@ public class Test3 {
         }
 
         System.out.println("answer = " + answer);
+        System.out.println("answer = " + answer);
 
         return answer;
     }
