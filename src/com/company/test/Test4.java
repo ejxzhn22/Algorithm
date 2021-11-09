@@ -20,6 +20,7 @@ public class Test4 {
             q.offer(ch);
         }
 
+
         for(int i=0; i<q.size(); i++){
             char tmp = q.poll();
             if( tmp != q.peek()){

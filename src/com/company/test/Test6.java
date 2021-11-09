@@ -63,7 +63,13 @@ public class Test6 {
 
         }
 
-        String answer = stack.pop();
+        String answer = "";
+        if(stack.isEmpty()) {
+            answer = "호치민";
+        }else{
+            answer = stack.pop();
+        }
+
         System.out.println("answer = " + answer);
 
         return answer;
